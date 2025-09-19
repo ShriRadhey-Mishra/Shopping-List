@@ -53,6 +53,10 @@ While building **CartWhisper**, I strengthened my understanding of:
 
 This project currently runs fully on the frontend. Planned improvements include:
 
+- **Responsive Frontend**
+    - Right now the frontend is catered only to the Laptops.
+    - Will add a responsiveness so it is accessible from all devices.     
+
 -  **Backend Integration**
     - Build a Node.js + Express server.
     - Create REST APIs to sync data with the frontend.
