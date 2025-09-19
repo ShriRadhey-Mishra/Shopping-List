@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(135deg, #232526 0%, #414345 100%);
-  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  font-family: "Segoe UI", "Roboto", "Arial", sans-serif;
   color: #f4f4f4;
   letter-spacing: 0.5px;
   min-height: 100vh;
@@ -11,7 +11,7 @@ h2 {
   font-weight: 700;
   color: #00e6a2;
   letter-spacing: 1.5px;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 #logo {
@@ -22,7 +22,7 @@ h2 {
   width: 150px;
   height: 150px;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
 }
 
 #wrapper {
@@ -40,7 +40,7 @@ h2 {
   background: linear-gradient(90deg, #00e6a2 0%, #32c77d 100%);
   padding: 18px 0px 12px 0px;
   border-radius: 18px 18px 0 0;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 #page-top h1,
@@ -49,7 +49,6 @@ h2 {
   margin: 0.5em 0;
   color: #232526;
 }
-
 
 #page-top input[type="text"] {
   width: 90%;
@@ -95,7 +94,7 @@ h2 {
   align-items: center;
   background: rgba(0, 230, 162, 0.08);
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 0px 10px 10px 10px;
 }
 
@@ -128,7 +127,7 @@ h2 {
   margin: 20px 0 0 0;
   border-radius: 0 8px 8px 0;
   font-weight: 600;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: background 0.2s, color 0.2s;
 }
 #add-item button:hover {
@@ -140,7 +139,7 @@ h2 {
   margin: 2em;
   background: rgba(44, 62, 80, 0.85);
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 1em 0.5em;
 }
 
@@ -156,16 +155,16 @@ h2 {
   padding: 1.1em 1.2em;
   border-left: 5px solid #00e6a2;
   margin: 1.2em 1em;
-  background: rgba(255,255,255,0.07);
+  background: rgba(255, 255, 255, 0.07);
   border-radius: 8px;
   color: #f4f4f4;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
   transition: border 0.2s, background 0.2s;
 }
 
 #list li:hover {
   border-color: #32c77d;
-  background: rgba(0,230,162,0.10);
+  background: rgba(0, 230, 162, 0.1);
 }
 
 .delete {
@@ -176,7 +175,7 @@ h2 {
   color: #fff;
   font-weight: 600;
   border: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: background 0.2s, color 0.2s;
   align-self: center;
   margin-left: 16px;

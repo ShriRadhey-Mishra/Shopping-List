@@ -30,19 +30,19 @@ formAdd.addEventListener('submit', (e) => {
 
 filterList.addEventListener('keyup', (e) => {
     let toFind = e.target.value.toLowerCase();
-    let items = formAdd.querySelectorAll('span.item');
-    if (toFind !== ""){
-        items.forEach(item => {
-            if (item.textContent.toLowerCase().includes(toFind)) {
-                item.parentElement.classList.add('hidden');
-            }
-        })
-    }
+    let items = ul.getElementsByTagName('li');
+    Array.from(items).forEach(item => {
+        let value = item.firstElementChild.textContent.toLowerCase();
+        if (value.indexOf(toFind) === -1) {
+            item.style.display = 'none';
+        } else {
+            item.style.display = 'flex';
+        }
+    })
 })
 
 filterList.addEventListener('submit', (e) => {
     e.preventDefault();
-    filterList.value = "";
 })
 
 checkBox.addEventListener('change', (e) => {
