@@ -43,6 +43,7 @@ filterList.addEventListener('keyup', (e) => {
 
 filterList.addEventListener('submit', (e) => {
     e.preventDefault();
+    e.target.firstElementChild.value = '';
 })
 
 checkBox.addEventListener('change', (e) => {
